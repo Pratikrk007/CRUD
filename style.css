@@ -1,0 +1,52 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#input_box{
+
+    border: 1px  solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2%;
+    width: 75%;
+    margin: auto;
+    font-size: x-large;
+}
+
+.input_field{
+    margin-top: 2%;
+    width: 25%;
+    padding: 0.5%;
+}
+ 
+/* for the submit button  */
+#submit_btn{
+    margin-top: 2%;
+    padding: 0.5%  3% ;
+    font-size: large;
+}
+
+/* for the table  */
+
+#table{
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 75%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+td ,th{
+    padding: 1%;
+    border: 1px solid;
+    border-collapse: collapse;
+    background-color: rgb(58, 177, 177);
+    color: white
+}
+
+
+tr:nth-child(even){
+    background-color: rgb(223, 223, 199);
+}
+
